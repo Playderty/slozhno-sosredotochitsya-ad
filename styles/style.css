@@ -27,6 +27,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-attachment: fixed;
   background-color: var(--text-color-bg);
   width: 100%;
   max-width: 1024px;
@@ -34,6 +35,7 @@
 
 .header {
   align-self: flex-end;
+  height: 100%;
 }
 
 .header__theme-menu-list {
@@ -97,7 +99,6 @@
   line-height: 23.4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23.4px;
   letter-spacing: 0%;
   align-self: flex-end;
 }
@@ -291,10 +292,6 @@ picture {
   .why__second {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-  }
-  .why__title {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
   }
 
   .what {
