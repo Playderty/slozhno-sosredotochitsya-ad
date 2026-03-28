@@ -3,6 +3,7 @@
 *,
 *::before,
 *::after {
+  font-family: "IBM Plex mono";
   box-sizing: border-box;
 }
 
